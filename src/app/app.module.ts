@@ -9,6 +9,8 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ErrorComponent } from './error/error.component';
 
+import 'styles/custom-style.css';
+
 @NgModule({
   declarations: [
     AppComponent,
