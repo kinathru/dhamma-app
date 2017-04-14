@@ -32,7 +32,7 @@ export class HomeComponent implements OnInit {
       this.pirithSubLists = [];
       const columnCount = 4;
       this.pirithDeshanaList.forEach((item, index) => {
-        const column = index % 4;
+        const column = index % columnCount;
         if (this.pirithSubLists[column] == null) {
           this.pirithSubLists[column] = [];
           console.log('New list created for column : ' + column);
@@ -42,10 +42,6 @@ export class HomeComponent implements OnInit {
       });
     });
     this.sanitizer = sanitizer;
-
-
-
-
   }
 
   ngOnInit() {

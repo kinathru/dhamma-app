@@ -1,4 +1,17 @@
 <div class="container-fluid">
+  <div class="row">
+    <div class="row-header">
+      <h4>තෙරුවණ් සරණයි</h4>
+      <hr/> අප භාග්‍යවත් වූ අමා මෑණී බුදු පියාණන් වහන්සේ සාරා අසංක්‍ය කල්ප ලක්ෂක් පෙරුම් දම් පුරා, ගුරු උපදේශ රහිතව තමා විසින්ම
+      අවබෝධ කර ගත්තා වූ, <br/>සන්දිට්ඨික වූ, අකාලික වූ උතුම් බුදු බණ මෙසේ ඔබ වෙත පෙළ ගස්වමු. ඒ පිවිතුරු දහමින් ඔබ ගුණයෙන්,
+      බලයෙන්, ප්‍රඥ්ඥාවෙන් වැඩෙත්වා.<br/> ඒ උතුම් ධර්මය කල් නොයවාම අවබෝධය පිණිස මේ දහම් පෙල ගැස්ම උප කාරයක්ම වේවා.
+
+      <br/> සාධූ... සාධූ... සාධූ... !!!
+    </div>
+  </div>
+
+  <br/>
+
   <!--ධර්ම දේශනා-->
   <div class="row">
     <div class="row-header">
@@ -15,6 +28,7 @@
   </div>
   <!--ධර්ම දේශනා end-->
 
+  <br/>
   <!--<hr/>-->
 
   <!--පිරිත් දේශනා-->
@@ -23,9 +37,9 @@
       <h4>පිරිත් දේශනා</h4>
       <hr/>
     </div>
-    <div *ngFor="let dhammaArray of pirithSubLists"  class="col-xs-3">
-      <div>
-        <ul class="list-group">
+    <div *ngFor="let dhammaArray of pirithSubLists" class="col-xs-3">
+      <div class="pirith-list">
+        <ul class="list-group ">
           <li *ngFor="let dhamma of dhammaArray" class="list-group-item">
             <app-player trackTitle="{{dhamma.title}}" trackURL="{{dhamma.webUrl}}"></app-player>
           </li>
