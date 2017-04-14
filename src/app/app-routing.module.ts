@@ -1,3 +1,5 @@
+import { PirithComponent } from './pirith/pirith.component';
+import { DhammadeshanaComponent } from './dhammadeshana/dhammadeshana.component';
 import { ErrorComponent } from './error/error.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
@@ -8,6 +10,14 @@ const routes: Routes = [
   {
     path: '',
     component : HomeComponent
+  },
+  {
+    path: 'dhammadeshana',
+    component : DhammadeshanaComponent
+  },
+  {
+    path: 'pirith',
+    component : PirithComponent
   },
   {
     path: 'about',

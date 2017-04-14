@@ -9,14 +9,17 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ErrorComponent } from './error/error.component';
 
-import 'styles/custom-style.css';
+import { DhammadeshanaComponent } from './dhammadeshana/dhammadeshana.component';
+import { PirithComponent } from './pirith/pirith.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
-    ErrorComponent
+    ErrorComponent,
+    DhammadeshanaComponent,
+    PirithComponent
   ],
   imports: [
     BrowserModule,
