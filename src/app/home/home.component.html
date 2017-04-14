@@ -18,13 +18,14 @@
       <h4>ධර්ම දේශනා</h4>
       <hr/>
     </div>
-    <div *ngFor="let item of dammaDeshanaList" class="col-xs-3">
-      <div class="thumbnail">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" [src]="getDhammaUrl(item)" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
+
+
+    <!-- Pager Start -->
+    <app-home-sub-damma></app-home-sub-damma>
+    <!-- Pager End -->
+
+
+
   </div>
   <!--ධර්ම දේශනා end-->
 
@@ -37,15 +38,7 @@
       <h4>පිරිත් දේශනා</h4>
       <hr/>
     </div>
-    <div *ngFor="let dhammaArray of pirithSubLists" class="col-xs-3">
-      <div class="pirith-list">
-        <ul class="list-group ">
-          <li *ngFor="let dhamma of dhammaArray" class="list-group-item">
-            <app-player trackTitle="{{dhamma.title}}" trackURL="{{dhamma.webUrl}}"></app-player>
-          </li>
-        </ul>
-      </div>
-    </div>
+    <app-home-sub-pirith></app-home-sub-pirith>
   </div>
   <!--පිරිත් දේශනා end-->
 

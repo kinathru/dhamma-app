@@ -1,3 +1,4 @@
+import { PagerService } from './services/pager.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -12,6 +13,8 @@ import { ErrorComponent } from './error/error.component';
 import { DhammadeshanaComponent } from './dhammadeshana/dhammadeshana.component';
 import { PirithComponent } from './pirith/pirith.component';
 import { PlayerComponent } from './player/player.component';
+import { HomeSubDammaComponent } from './home-sub-damma/home-sub-damma.component';
+import { HomeSubPirithComponent } from './home-sub-pirith/home-sub-pirith.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,9 @@ import { PlayerComponent } from './player/player.component';
     ErrorComponent,
     DhammadeshanaComponent,
     PirithComponent,
-    PlayerComponent
+    PlayerComponent,
+    HomeSubDammaComponent,
+    HomeSubPirithComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +34,7 @@ import { PlayerComponent } from './player/player.component';
     HttpModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [PagerService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

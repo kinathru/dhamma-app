@@ -1,0 +1,9 @@
+.pirith-list > .list-group {
+    border: none;
+    box-shadow: none;
+    -webkit-box-shadow:none;
+}
+
+.pirith-list > .list-group > .list-group-item{
+   border: none; 
+}
