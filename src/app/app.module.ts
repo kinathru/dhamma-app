@@ -11,6 +11,7 @@ import { ErrorComponent } from './error/error.component';
 
 import { DhammadeshanaComponent } from './dhammadeshana/dhammadeshana.component';
 import { PirithComponent } from './pirith/pirith.component';
+import { PlayerComponent } from './player/player.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { PirithComponent } from './pirith/pirith.component';
     AboutComponent,
     ErrorComponent,
     DhammadeshanaComponent,
-    PirithComponent
+    PirithComponent,
+    PlayerComponent
   ],
   imports: [
     BrowserModule,

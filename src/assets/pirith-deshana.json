@@ -1,7 +1,110 @@
 [
     {
-        "title": "රුවන්වැලි මහා සෑ පිංකම (සම්පුර්ණ ධර්ම දේශනාව)",
-        "description": "රුවන්වැලි මහා සෑ පිංකම (සම්පුර්ණ ධර්ම දේශනාව)",
-        "webUrl": "https://www.youtube.com/embed/lA3Sv6iC6YU?ecver=1"
+        "title": "මහ පිරිත",
+        "description": " ",
+        "webUrl": "http://www.pirith.org/download/MahaPiritha.mp3"
+    },
+    {
+        "title": "සෙත් පිරිත",
+        "description": " ",
+        "webUrl": "http://www.pirith.org/download/SethPirith1.mp3"
+    },
+    {
+        "title": "සෙත් පිරිත 2",
+        "description": " ",
+        "webUrl": "http://www.pirith.org/download/SethPirith2.mp3"
+    },
+    {
+        "title": "ධම්මචක්ක සූත්‍රය",
+        "description": " ",
+        "webUrl": "http://www.pirith.org/download/DhammaChakka1.mp3"
+    },
+
+
+    {
+        "title": "ජය පිරිත",
+        "description": " ",
+        "webUrl": "http://www.pirith.org/download/JayaPiritha.mp3"
+    },
+    {
+        "title": "සීවලී පිරිත",
+        "description": " ",
+        "webUrl": "http://www.pirith.org/download/SeevaliPiritha1.mp3"
+    },
+    {
+        "title": "සීවලී පිරිත 2",
+        "description": " ",
+        "webUrl": "http://www.pirith.org/download/SeevaliPiritha2.mp3"
+    },
+    {
+        "title": "ධජග්ග සූත්‍රය",
+        "description": " ",
+        "webUrl": "http://www.pirith.org/download/Dajaghgha%20Sutta.mp3"
+    },
+
+
+    {
+        "title": "ජල නන්දන පිරිත",
+        "description": " ",
+        "webUrl": "http://www.pirith.org/download/JalaNandanaPiritha.mp3"
+    },
+    {
+        "title": "අන්තරාය නිවාරණ පිරිත",
+        "description": " ",
+        "webUrl": "http://www.pirith.org/download/AntharayaNiwaranaPiritha.mp3"
+    },
+    {
+        "title": "රත්නමාලී යන්ත්‍රය",
+        "description": " ",
+        "webUrl": "http://www.pirith.org/download/RathaMaleeYanthra.mp3"
+    },
+    {
+        "title": "ජය මංගල ගාථා",
+        "description": " ",
+        "webUrl": " "
+    },
+
+
+    {
+        "title": "ඡත්ත මානවක ගාථා",
+        "description": " ",
+        "webUrl": "http://www.pirith.org/download/JathaManawaka_Gatha.mp3"
+    },
+    {
+        "title": "අංගුලිමාල පිරිත",
+        "description": " ",
+        "webUrl": "http://www.pirith.org/download/AngulimaalaPiritha.mp3"
+    },
+    {
+        "title": "බෝධි පූජා",
+        "description": " ",
+        "webUrl": "http://www.pirith.org/download/BodhiPooja.mp3"
+    },
+    {
+        "title": "test1",
+        "description": " ",
+        "webUrl": " "
+    },
+
+
+    {
+        "title": "test2",
+        "description": " ",
+        "webUrl": " "
+    },
+    {
+        "title": "test3",
+        "description": " ",
+        "webUrl": " "
+    },
+    {
+        "title": "test4",
+        "description": " ",
+        "webUrl": " "
+    },
+    {
+        "title": "test5",
+        "description": " ",
+        "webUrl": " "
     }
 ]

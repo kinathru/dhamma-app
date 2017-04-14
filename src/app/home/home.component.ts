@@ -1,3 +1,4 @@
+import { PlayerComponent } from './../player/player.component';
 import { Http } from '@angular/http';
 import { Component, OnInit } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
@@ -10,14 +11,41 @@ import { DomSanitizer } from '@angular/platform-browser';
 export class HomeComponent implements OnInit {
 
   dammaDeshanaList: DhammaDeshanaSummary[];
+
   pirithDeshanaList: PirithDeshanaya[];
+  pirithSubLists: PirithDeshanaya[][];
+
   sanitizer: DomSanitizer;
 
   constructor(private http: Http, sanitizer: DomSanitizer) {
     this.dammaDeshanaList = [];
-    this.http.get('assets/dhamma-deshana.json').subscribe(res => this.dammaDeshanaList = res.json());
-    this.http.get('assets/pirith-deshana.json').subscribe(res => this.pirithDeshanaList = res.json());
+    this.pirithDeshanaList = [];
+    this.http.get('assets/dhamma-deshana.json').subscribe(res => {
+      this.dammaDeshanaList = res.json();
+      console.log(this.dammaDeshanaList);
+    });
+
+    this.http.get('assets/pirith-deshana.json').subscribe(res => {
+      this.pirithDeshanaList = res.json();
+      console.log(this.pirithDeshanaList);
+
+      this.pirithSubLists = [];
+      const columnCount = 4;
+      this.pirithDeshanaList.forEach((item, index) => {
+        const column = index % 4;
+        if (this.pirithSubLists[column] == null) {
+          this.pirithSubLists[column] = [];
+          console.log('New list created for column : ' + column);
+        }
+        this.pirithSubLists[column].push(item);
+        // console.log('Item ' + index + ' pushed to column : ' + column);
+      });
+    });
     this.sanitizer = sanitizer;
+
+
+
+
   }
 
   ngOnInit() {
