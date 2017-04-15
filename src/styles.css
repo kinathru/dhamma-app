@@ -4,6 +4,12 @@
     text-align: center;
 }
 
+.center-pills
+{
+    display: flex;
+    justify-content: center;
+}
+
 .site-footer
 {
     background-color: lightgrey;
@@ -17,7 +23,8 @@
 
 .footer-content
 {
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .link-col{

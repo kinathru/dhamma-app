@@ -16,6 +16,8 @@ import { PlayerComponent } from './player/player.component';
 import { HomeSubDammaComponent } from './home-sub-damma/home-sub-damma.component';
 import { HomeSubPirithComponent } from './home-sub-pirith/home-sub-pirith.component';
 import { HomeSubBooksComponent } from './home-sub-books/home-sub-books.component';
+import { DhammaDetailComponent } from './dhamma-detail/dhamma-detail.component';
+import { Mp3DeshanaComponent } from './mp3-deshana/mp3-deshana.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { HomeSubBooksComponent } from './home-sub-books/home-sub-books.component
     PlayerComponent,
     HomeSubDammaComponent,
     HomeSubPirithComponent,
-    HomeSubBooksComponent
+    HomeSubBooksComponent,
+    DhammaDetailComponent,
+    Mp3DeshanaComponent
   ],
   imports: [
     BrowserModule,
