@@ -15,6 +15,7 @@ import { PirithComponent } from './pirith/pirith.component';
 import { PlayerComponent } from './player/player.component';
 import { HomeSubDammaComponent } from './home-sub-damma/home-sub-damma.component';
 import { HomeSubPirithComponent } from './home-sub-pirith/home-sub-pirith.component';
+import { HomeSubBooksComponent } from './home-sub-books/home-sub-books.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { HomeSubPirithComponent } from './home-sub-pirith/home-sub-pirith.compon
     PirithComponent,
     PlayerComponent,
     HomeSubDammaComponent,
-    HomeSubPirithComponent
+    HomeSubPirithComponent,
+    HomeSubBooksComponent
   ],
   imports: [
     BrowserModule,

@@ -3,3 +3,27 @@
 {
     text-align: center;
 }
+
+.site-footer
+{
+    background-color: lightgrey;
+    margin-bottom: 1px;
+}
+
+.media-link
+{
+    max-height: 40px;
+}
+
+.footer-content
+{
+    padding: 10px;
+}
+
+.link-col{
+    text-align: right;
+}
+
+.first-col{
+    text-align: left;
+}

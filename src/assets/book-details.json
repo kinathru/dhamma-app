@@ -1,0 +1,69 @@
+[
+    {
+        "bookTitle": "මහ රහතුන් වැඩි මග ඔස්සේ - අත්හැරීම 01",
+        "imageURL": "assets/images/book1.png",
+        "pdfURL": "assets/books/book1.pdf",
+        "bookReadURL": "http://www.maharahathunwadimaga.com/DhammaSermon/Read/f53357c0-a18a-442b-8067-a4cac506723e"
+    },
+    {
+        "bookTitle": "මහ රහතුන් වැඩි මග ඔස්සේ - අත්හැරීම 02",
+        "imageURL": "assets/images/book2.png",
+        "pdfURL": "assets/books/book2.pdf",
+        "bookReadURL": "http://www.maharahathunwadimaga.com/DhammaSermon/Read/2d206afc-62b3-4011-9c3c-57621b50c265"
+    }
+    ,
+    {
+        "bookTitle": "මහ රහතුන් වැඩි මග ඔස්සේ - අත්හැරීම 03",
+        "imageURL": "assets/images/book3.png",
+        "pdfURL": "assets/books/book3.pdf",
+        "bookReadURL": "http://www.maharahathunwadimaga.com/DhammaSermon/Read/e85fe879-0a76-4bc6-95b9-7ad6084880c4"
+    }
+    ,
+    {
+        "bookTitle": "මහ රහතුන් වැඩි මග ඔස්සේ - අත්හැරීම 04",
+        "imageURL": "assets/images/book4.png",
+        "pdfURL": "assets/books/book4.pdf",
+        "bookReadURL": "http://www.maharahathunwadimaga.com/DhammaSermon/Read/b07c45ce-6754-4ca6-be45-af99908bfe8f"
+    }
+    ,
+    {
+        "bookTitle": "මහ රහතුන් වැඩි මග ඔස්සේ - අත්හැරීම 05",
+        "imageURL": "assets/images/book5.png",
+        "pdfURL": "assets/books/book5.pdf",
+        "bookReadURL": "http://www.maharahathunwadimaga.com/DhammaSermon/Read/a396b76f-89d2-4cce-98ce-f9106b0b7d73"
+    }
+    ,
+    {
+        "bookTitle": "මහ රහතුන් වැඩි මග ඔස්සේ - අත්හැරීම 06",
+        "imageURL": "assets/images/book6.png",
+        "pdfURL": "assets/books/book6.pdf",
+        "bookReadURL": "http://www.maharahathunwadimaga.com/DhammaSermon/Read/fae59768-9f00-40e7-ad54-0fa03bb7075d"
+    }
+    ,
+    {
+        "bookTitle": "මහ රහතුන් වැඩි මග ඔස්සේ - අත්හැරීම 07",
+        "imageURL": "assets/images/book7.png",
+        "pdfURL": "assets/books/book7.pdf",
+        "bookReadURL": "http://www.maharahathunwadimaga.com/DhammaSermon/Read/639788e8-6082-472b-ba59-533cebfff6f7"
+    }
+    ,
+    {
+        "bookTitle": "මහ රහතුන් වැඩි මග ඔස්සේ - අත්හැරීම 08",
+        "imageURL": "assets/images/book8.png",
+        "pdfURL": "assets/books/book8.pdf",
+        "bookReadURL": "http://www.maharahathunwadimaga.com/DhammaSermon/Read/66152268-41f3-49ef-af6d-44746d0adb50"
+    }
+    ,
+    {
+        "bookTitle": "ආර්ය අෂ්ඨාංගික මාර්ගය",
+        "imageURL": "assets/images/eightfoldpath.png",
+        "pdfURL": "assets/books/book9.pdf",
+        "bookReadURL": "http://www.maharahathunwadimaga.com/DhammaSermon/Read/3812ea4d-172f-455a-addf-8bb581485b2a"
+    },
+    {
+        "bookTitle": "ආර්ය අෂ්ඨාංගික මාර්ගය",
+        "imageURL": "assets/images/pohoya-dinaya.jpg",
+        "pdfURL": "assets/books/book9.pdf",
+        "bookReadURL": "http://www.maharahathunwadimaga.com/DhammaSermon/Read/3812ea4d-172f-455a-addf-8bb581485b2a"
+    }
+]

@@ -1,0 +1,9 @@
+.book-image
+{
+    max-height: 140px;
+}
+
+.book-thumb{
+    border: none;
+    box-shadow: none;
+}
