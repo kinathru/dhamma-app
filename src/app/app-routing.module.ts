@@ -1,3 +1,4 @@
+import { DhammaBooksComponent } from './dhamma-books/dhamma-books.component';
 import { PirithComponent } from './pirith/pirith.component';
 import { DhammadeshanaComponent } from './dhammadeshana/dhammadeshana.component';
 import { ErrorComponent } from './error/error.component';
@@ -18,6 +19,10 @@ const routes: Routes = [
   {
     path: 'pirith',
     component : PirithComponent
+  },
+  {
+    path: 'dhammabooks',
+    component : DhammaBooksComponent
   },
   {
     path: 'about',

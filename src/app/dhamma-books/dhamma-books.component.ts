@@ -7,13 +7,12 @@ import { PlayerComponent } from './../player/player.component';
 import * as _ from 'underscore';
 
 @Component({
-  selector: 'app-pirith',
-  templateUrl: './pirith.component.html',
-  styleUrls: ['./pirith.component.css']
+  selector: 'app-dhamma-books',
+  templateUrl: './dhamma-books.component.html',
+  styleUrls: ['./dhamma-books.component.css']
 })
-export class PirithComponent implements OnInit {
- private pageSize: number;
-  sanitizer: DomSanitizer;
+export class DhammaBooksComponent implements OnInit {
+    private pageSize: number;
 
   // array of all items to be paged
   private allItems: any[];
@@ -24,25 +23,19 @@ export class PirithComponent implements OnInit {
   // paged items
   pagedItems: any[];
 
-  constructor(private http: Http, sanitizer: DomSanitizer) {
-    this.sanitizer = sanitizer;
-  }
+  constructor(private http: Http) { }
 
   ngOnInit() {
-    this.http.get('assets/pirith-deshana-detail.json')
+    this.http.get('assets/book-details.json')
       .map((response: Response) => response.json())
       .subscribe(data => {
         // set items to json response
         this.allItems = data;
         console.log(this.allItems);
+
         // initialize to page 1
         this.setPage(1);
-
       });
-  }
-
-  getDhammaUrl(dammaSummary: Pirith) {
-    return this.sanitizer.bypassSecurityTrustResourceUrl(dammaSummary.webUrl);
   }
 
   setPage(page: number) {
@@ -59,7 +52,7 @@ export class PirithComponent implements OnInit {
 
   getPager(totalItems: number, currentPage: number = 1) {
 
-    this.pageSize = 24;
+    this.pageSize = 18;
 
     // calculate total pages
     let totalPages = Math.ceil(totalItems / this.pageSize);
@@ -106,11 +99,10 @@ export class PirithComponent implements OnInit {
 
 }
 
-class Pirith {
-  title: string;
-  description: string;
-  webUrl: string;
-  thero: string;
-  theroKey: string;
-  keywords: string;
+class BookDetail {
+  bookTitle: string;
+  imageURL: string;
+  pdfURL: string;
+  bookReadURL: string;
 }
+

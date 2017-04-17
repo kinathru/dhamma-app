@@ -1,34 +1,23 @@
 <div class="container">
   <div class="text-center">
 
-    <div class="row-header">
-      <h4>පිරිත් දේශනා</h4>
-      <hr/>
-    </div>
-    <!--<div class="row">
-      <div class="text-center">
-        <ul class="nav nav-pills center-pills">
-          <li *ngFor="let thero of theroNameSet" role="presentation">
-            <a (click)="filterResults(thero)">{{thero}}</a>
-          </li>
-          <li><a (click)="filterResults('all')">සියළුම</a></li>
-        </ul>
-      </div>
-    </div>
-    <br/>-->
-
-    <!-- items being paged -->
     <div class="row">
-      <div *ngFor="let pirith of pagedItems" class="col-sm-6 col-md-3">
-        <div class="pirith-list">
-          <ul class="list-group ">
-            <app-player trackTitle="{{pirith.title}}" trackURL="{{pirith.webUrl}}"></app-player>
-          </ul>
+      <div *ngFor="let item of pagedItems" class="col-sm-6 col-md-2">
+        <div class="book-thumb thumbnail">
+          <img src="{{item.imageURL}}" alt="{{item.bookTitle}}" class="book-image">
+          <div class="caption">
+            {{item.bookTitle}}
+            <div class="btn-group btn-group-xs" role="group" aria-label="...">
+              <a target="_blank" href="{{item.bookReadURL}}" class="btn btn-warning">කියවන්න</a>
+              <a target="_blank" href="{{item.pdfURL}}" class="btn btn-warning">
+                  PDF <span class="glyphicon glyphicon-download" aria-hidden="true"></span>
+                </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- pager -->
     <div class="row">
       <ul *ngIf="pager.pages && pager.pages.length" class="pagination">
         <li [ngClass]="{disabled:pager.currentPage === 1}">
@@ -48,5 +37,6 @@
         </li>
       </ul>
     </div>
+
   </div>
 </div>
